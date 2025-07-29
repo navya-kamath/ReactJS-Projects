@@ -1,0 +1,11 @@
+name: Manual Text Display
+
+on:
+  workflow_dispatch:  # Enables manual trigger via GitHub UI
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "👋 Hello from Navya's GitHub Action!"

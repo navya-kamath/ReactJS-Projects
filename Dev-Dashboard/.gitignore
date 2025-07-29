@@ -1,0 +1,19 @@
+# React / Node
+node_modules/
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Env
+.env
