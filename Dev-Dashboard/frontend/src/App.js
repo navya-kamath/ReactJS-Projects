@@ -15,6 +15,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
+        <Route index element={<TextInputPage />} />
           <Route path="text-input" element={<TextInputPage />} />
           <Route path="addition" element={<AdditionPage />} />
           <Route path="counter" element={<CounterPage />} />
