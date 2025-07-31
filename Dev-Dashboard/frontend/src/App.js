@@ -8,7 +8,6 @@ import GitHubUser from "./pages/GitHubUser";
 import PropsDrillPage from "./pages/PropsDrillPage";
 import WindowSizePage from "./pages/WindowSizePage";
 import CounterPage from "./pages/CounterPage";
-import FastAPIDemo from './pages/FastAPIDemo';
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
           <Route path="github-user" element={<GitHubUser />} />
           <Route path="window-size" element={<WindowSizePage />} />
           <Route path="props-drill" element={<PropsDrillPage />} />
-          <Route path="/fastapi" element={<FastAPIDemo />} />
         </Route>
       </Routes>
     </Router>

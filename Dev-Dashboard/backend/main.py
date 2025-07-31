@@ -13,5 +13,5 @@ app.add_middleware(
 )
 
 @app.get("/api/add")
-def add(x: int, y: int):
+def add(x: float, y: float):
     return {"result": x + y}
